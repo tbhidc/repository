@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+    class Game{
+        constructor (){
+            this.x = 10
+            this.y = 256
+        }
+        f1() {
+            console.log(this.x, this.y)
+        }
+    }
+
+    let q = new Game()
+    q.f1()
+    console.log(q.x, q.y)
+</script>
+
+
+- игровой объект
+    - width и heght
+    - коор y
+    - коор x 
+    - image
+
+
+- самолет ( игровой объект )
+    - функц если врежется в стену
+    - подбор батарейки
+    - зарядка
+    - функция вврех
+    - функция вниз
+
+- стены ( игровой объект )
+    - шаг стен (скорость)
+
+- батарейки ( игровой объект )
+    - заряд +
+
+- игра
+    - функц генерации стены
+    - функц сколько идет игра
+    - массив всех объектов
+    - функия рендера
+    - функц когда заряда закочнится
+    - функц добавление заряда ремени

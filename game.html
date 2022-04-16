@@ -1,0 +1,24 @@
+<style>
+    .test{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 250;
+        background-color: red;
+    }
+</style>
+
+<div id="wrapper">
+</div>
+<script>
+    abc = 5;
+    console.log(abc);
+    let q = document.createElement('div')
+    q.classList.add("test")
+    document.querySelector("#wrapper").appendChild(q)
+    document.addEventListener('keydown', (event) => {
+        const keyName = event.key
+        console.log(event.keyCode, event.key)
+    })
+    console.log(document.querySelector('iframe').contentDocument
+</script>
